@@ -1,2 +1,68 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+header{
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    border-bottom: 3px solid #eb4442;
+    padding: 5px 0;
+}   
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+     height: 100%;
+}
+header a{
+    padding: 0 20px;
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#highlight,#current a{
+color: #eb4442;
+font-weight: 700;
+}
+a:not(#current a):hover{
+    color: #ccc;
+    font-weight: 700;
+}
+
+#about .container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+
+#services .container{
+    display:grid;
+    grid-template: 2fr 1fr;
+    column-gap: 50px;
+}
+#services ul{
+    padding: 0%;
+}
+#services li{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+#services .sidebar{
+    margin-top: 10px;
+}
+#services input,#services textarea{
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 5px;
+}
+footer{
+    background-color:#2d2b3e;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
